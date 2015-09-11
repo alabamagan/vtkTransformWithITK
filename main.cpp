@@ -54,8 +54,8 @@ int main()
     ItkMatrixConvert<itk::MatrixOffsetTransformBase<double, 3, 3> > converter;
     converter.SetBasePath("/home/lwong/Documents/qtprojects/build-itkMatrixConvert-Desktop_Qt_5_5_0_GCC_64bit-Default");
     converter.SetOutputFileName("regSkull.vtk");
-    converter.SetSkullFileName("skull.vtk");
-    converter.SetITKTransformFileName("regctAffine.txt");
+    converter.SetSkullFileName("skull2.vtk");
+    converter.SetITKTransformFileName("regctAffine2.txt");
     converter.Update();
     return 0;
 }

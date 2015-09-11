@@ -258,5 +258,5 @@ void ItkMatrixConvert<TransformType>::Update() {
     skull = transformFilter->GetOutput();
 
 //    Visualization(skull);
-    WriteVTKPolyData(this->m_basePath + this->m_outputFileName, skull);
+    WriteVTKPolyData(this->m_basePath + g_slash + this->m_outputFileName, skull);
 }
